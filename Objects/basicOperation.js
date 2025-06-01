@@ -30,8 +30,21 @@ shopping_mall.gadgets = {
   },
 };
 // this statement throw error, because i can not access directly phone, i can access child through parent object,
-phone.life = 5000;
+// phone.life = 5000;
+shopping_mall.gadgets.phone.lifeJio = 5000;
+
+// i want to delete the lifeJio form phone from gadgets;
+delete shopping_mall.gadgets.phone.lifeJio;
+
+// Life jio phone is deleted forom the phone object;
 
 // add key and value in object
 
 console.log(shopping_mall);
+// we need to give correct path else it will show undefined;
+console.log(shopping_mall.books);
+
+// this the correct path
+console.log(shopping_mall.category.books);
+
+console.log(shopping_mall.gadgets.laptops);
