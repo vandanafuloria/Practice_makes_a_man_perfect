@@ -2,6 +2,7 @@
 
 let user = {};
 let shubham = new Object();
+// Note : it has key type only string
 
 let shopping_mall = {
   // its a nested object,
@@ -17,6 +18,7 @@ let shopping_mall = {
     medium: "quality",
   },
 };
+
 shopping_mall.category.books = true; // books is added to the shopping mall object category;
 shopping_mall.Price.cheap = "low quality"; // its added to the shopping mall - price- cheap;
 shopping_mall.gadgets = ""; // empty value of key gadgets;

@@ -1,1 +1,1 @@
- // console.log(el);
+Object.assign(woman, ...man);
